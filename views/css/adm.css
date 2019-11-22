@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+}
+
+input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #003399;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 0px #aaa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.div-pop {
+    position: absolute;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 #aaa;
+}
+
+.div-pop-campos {
+    display: flex;
+    flex-direction: column;
+}
+
+.mr-bott {
+    margin-bottom: 20px;
+}
